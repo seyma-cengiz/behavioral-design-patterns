@@ -5,11 +5,15 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns.Strategy", "BehavioralPatterns.Strategy", "{0F6A2741-24C8-495D-833A-9C687544A515}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehavioralPatterns.Strategy", "BehavioralPatterns.Strategy\BehavioralPatterns.Strategy.csproj", "{5E1DA448-DAD3-4BA1-8551-FAF4F157C2DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BehavioralPatterns.Strategy", "BehavioralPatterns.Strategy\BehavioralPatterns.Strategy.csproj", "{5E1DA448-DAD3-4BA1-8551-FAF4F157C2DE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns.Command", "BehavioralPatterns.Command", "{75842B5C-7963-443E-9FB4-E82E2BF1351F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehavioralPatterns.Command", "BehavioralPatterns.Command\BehavioralPatterns.Command.csproj", "{2F77069D-2904-4E61-BD9B-A405B8CB51EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BehavioralPatterns.Command", "BehavioralPatterns.Command\BehavioralPatterns.Command.csproj", "{2F77069D-2904-4E61-BD9B-A405B8CB51EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPattern.Observer", "BehavioralPattern.Observer", "{EAEAD3C4-6585-4C06-A765-1A0E38AFF84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehavioralPattern.Observer", "BehavioralPattern.Observer\BehavioralPattern.Observer.csproj", "{ABC284EF-E0BD-45E4-9817-676E52C2DEEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{2F77069D-2904-4E61-BD9B-A405B8CB51EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F77069D-2904-4E61-BD9B-A405B8CB51EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F77069D-2904-4E61-BD9B-A405B8CB51EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC284EF-E0BD-45E4-9817-676E52C2DEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC284EF-E0BD-45E4-9817-676E52C2DEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC284EF-E0BD-45E4-9817-676E52C2DEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC284EF-E0BD-45E4-9817-676E52C2DEEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5E1DA448-DAD3-4BA1-8551-FAF4F157C2DE} = {0F6A2741-24C8-495D-833A-9C687544A515}
 		{2F77069D-2904-4E61-BD9B-A405B8CB51EB} = {75842B5C-7963-443E-9FB4-E82E2BF1351F}
+		{ABC284EF-E0BD-45E4-9817-676E52C2DEEB} = {EAEAD3C4-6585-4C06-A765-1A0E38AFF84B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B534D08-BE18-431A-8056-300C4E2478C5}
