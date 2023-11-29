@@ -42,7 +42,7 @@ As a result, commands become a convenient middle layer that reduces coupling bet
    - Create senders, and associate them with specific commands.
 <br />
 
-*some helpful contents*[^2][^3]:.
+*some helpful contents*[^2][^3]:
     
 [^1]: https://refactoring.guru/design-patterns/command
 [^2]: https://www.youtube.com/watch?v=1xB0yHc9Vlc
